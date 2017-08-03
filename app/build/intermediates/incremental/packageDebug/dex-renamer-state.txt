@@ -1,4 +1,4 @@
-#Fri Aug 04 02:11:42 IST 2017
+#Fri Aug 04 02:36:13 IST 2017
 base.0=C\:\\Users\\Ravi\\Documents\\ARC\\translate\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_37cd2cc37a3383660d940f884e7d6fb73e9a5566
 renamed.1=classes2.dex
 renamed.0=classes.dex
