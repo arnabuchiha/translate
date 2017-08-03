@@ -31,15 +31,16 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
-        EditText editText = (EditText)findViewById(R.id.simple_text);
+        final EditText editText = (EditText)findViewById(R.id.simple_text);
 
-        final String str= editText.getText().toString();
+
+
         Button button =(Button) findViewById(R.id.translateButton);
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-
-                transl("AIzaSyCJg1Q22bNXvxB2Rhdi33sFLZG05C7x0PE",str,"en","de");
+                String str  = editText.getText().toString();
+                transl("AIzaSyCJg1Q22bNXvxB2Rhdi33sFLZG05C7x0PE",str,"en","hi");
             }
         });
 
@@ -54,20 +55,31 @@ public class MainActivity extends AppCompatActivity {
             }
         });
     }
-    public void transl(String key,String q,String source,String target){
-    translate tn = apiClient.getClient().create(translate.class);
+    private void transl(String key,String q,String source,String target){
+        final translate tn = translate.retrofit.create(translate.class);
     Call<authPOJO> call = tn.performTranslate(key,q,source,target);
     call.enqueue(new Callback<authPOJO>() {
         @Override
         public void onResponse(Call<authPOJO> call, Response<authPOJO> response) {
             Data data=response.body().getData();
+            //See the response
+            System.out.println("HAHA: "+response.raw().toString());
             List<Translation> list = data.getTranslations();
-            ListIterator<Translation> listIterator=list.listIterator();
-            String txt1=null;
+
+            ListIterator<Translation> los=list.listIterator();
+            String txt1="";
             do{
-                String txt=list.listIterator().next().getTranslatedText();
+                String txt=los.next().getTranslatedText();
                 txt1=txt1+txt;
-            }while(listIterator.hasNext());
+            }while(los.hasNext());
+
+
+//            ListIterator<Translation> listIterator=list.listIterator();
+//            String txt1="";
+////            do{
+//                String txt=list.get(0).getTranslatedText();
+//                txt1=txt1+txt;
+//            }while(listIterator.hasNext());
             TextView textView=(TextView)findViewById(R.id.text);
             textView.setText(txt1);
 

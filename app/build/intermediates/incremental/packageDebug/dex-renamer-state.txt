@@ -1,7 +1,7 @@
-#Wed Aug 02 20:14:29 IST 2017
-base.0=E\:\\My android projects\\Desk-master\\MyApplication3\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_d7d8cc673ce851c8ac6fc0bcd3723109152a36e9
+#Fri Aug 04 02:11:42 IST 2017
+base.0=C\:\\Users\\Ravi\\Documents\\ARC\\translate\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_37cd2cc37a3383660d940f884e7d6fb73e9a5566
 renamed.1=classes2.dex
 renamed.0=classes.dex
-file.1=E\:\\My android projects\\Desk-master\\MyApplication3\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_4ace831ba6efef6bc71f3a85f84dc861e63025d7\\classes.dex
-base.1=E\:\\My android projects\\Desk-master\\MyApplication3\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_4ace831ba6efef6bc71f3a85f84dc861e63025d7
-file.0=E\:\\My android projects\\Desk-master\\MyApplication3\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_d7d8cc673ce851c8ac6fc0bcd3723109152a36e9\\classes.dex
+file.1=C\:\\Users\\Ravi\\Documents\\ARC\\translate\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_b2ffef57a85c77d38dd3abcbdfa892cc6ab67e2e\\classes.dex
+base.1=C\:\\Users\\Ravi\\Documents\\ARC\\translate\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_b2ffef57a85c77d38dd3abcbdfa892cc6ab67e2e
+file.0=C\:\\Users\\Ravi\\Documents\\ARC\\translate\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_37cd2cc37a3383660d940f884e7d6fb73e9a5566\\classes.dex

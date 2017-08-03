@@ -1,4 +1,4 @@
-#Wed Aug 02 02:03:57 IST 2017
-base.0=E\:\\My android projects\\Desk-master\\MyApplication3\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\5\\slice_0
+#Fri Aug 04 02:11:41 IST 2017
+base.0=C\:\\Users\\Ravi\\Documents\\ARC\\translate\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\5\\slice_0
 renamed.0=classes.dex
-file.0=E\:\\My android projects\\Desk-master\\MyApplication3\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\5\\slice_0\\classes.dex
+file.0=C\:\\Users\\Ravi\\Documents\\ARC\\translate\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\5\\slice_0\\classes.dex

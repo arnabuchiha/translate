@@ -18,11 +18,15 @@ import retrofit2.http.Query;
  */
 
 public interface translate {
-    @GET("/language/translate/v2")
+    @GET("v2")
     Call<authPOJO> performTranslate(@Query("key")String key,
                                     @Query("q") String q,
                                     @Query("source") String source,
                                     @Query("target") String target);
 
+    Retrofit retrofit = new Retrofit.Builder()
+            .baseUrl("https://www.googleapis.com/language/translate/")
+            .addConverterFactory(GsonConverterFactory.create())
+            .build();
 
 }
