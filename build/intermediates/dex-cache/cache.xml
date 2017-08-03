@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="E:\My android projects\Desk-master\MyApplication3\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="437d8bd41acb5ab6d0e62deed06e1bcbb6960aaf">
+        <dex dex="E:\My android projects\Desk-master\MyApplication3\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_d7d8cc673ce851c8ac6fc0bcd3723109152a36e9\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\arnab\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.6.1\b9d63507329a7178e026fc334f87587ee5070ac5\gson-2.6.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="b9d63507329a7178e026fc334f87587ee5070ac5">
+        <dex dex="E:\My android projects\Desk-master\MyApplication3\app\build\intermediates\transforms\dex\debug\folders\1000\10\gson-2.6.1_5f0c1fc28cea0fd15d0e6e4c9b60112e8fa7b084\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\My android projects\Desk-master\MyApplication3\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="510aa6efc159983dfbffa676a0dae37568c0a46f">
+        <dex dex="E:\My android projects\Desk-master\MyApplication3\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_4ace831ba6efef6bc71f3a85f84dc861e63025d7\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\arnab\.gradle\caches\modules-2\files-2.1\com.squareup.retrofit2\retrofit\2.3.0\bcacde6a8ccedcc56c127403d26b76072fe6214d\retrofit-2.3.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="bcacde6a8ccedcc56c127403d26b76072fe6214d">
+        <dex dex="E:\My android projects\Desk-master\MyApplication3\app\build\intermediates\transforms\dex\debug\folders\1000\10\retrofit-2.3.0_7816aca4686335c077232a72416e9c1086f82fe6\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\arnab\.gradle\caches\modules-2\files-2.1\com.squareup.okio\okio\1.13.0\a9283170b7305c8d92d25aff02a6ab7e45d06cbe\okio-1.13.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="a9283170b7305c8d92d25aff02a6ab7e45d06cbe">
+        <dex dex="E:\My android projects\Desk-master\MyApplication3\app\build\intermediates\transforms\dex\debug\folders\1000\10\okio-1.13.0_568a76b006b894abebdcfff4c4e5a5cde8a5f19e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\arnab\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\okhttp\3.8.0\5a11f020cce2d11eb71ba916700600e18c4547e7\okhttp-3.8.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="5a11f020cce2d11eb71ba916700600e18c4547e7">
+        <dex dex="E:\My android projects\Desk-master\MyApplication3\app\build\intermediates\transforms\dex\debug\folders\1000\10\okhttp-3.8.0_8705fbc788785f364dc97c659589b0154706d337\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\arnab\.gradle\caches\modules-2\files-2.1\com.squareup.retrofit2\converter-gson\2.0.2\f8d87f15b94b8d74e7ccf61d7eedb558811cdb30\converter-gson-2.0.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="f8d87f15b94b8d74e7ccf61d7eedb558811cdb30">
+        <dex dex="E:\My android projects\Desk-master\MyApplication3\app\build\intermediates\transforms\dex\debug\folders\1000\10\converter-gson-2.0.2_08041cb0b0dcb8c92639742f0b572f2ef72ffc26\classes.dex" />
+    </item>
+
+</items>
